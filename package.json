@@ -20,6 +20,9 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@nestjs/mapped-types": "*",
+    "zod": "^3.19.1"
+  },
   "packageManager": "yarn@1.22.17"
 }

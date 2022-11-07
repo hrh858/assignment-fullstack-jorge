@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "strict": true, // !!! Why not add this one?
     "module": "commonjs",
     "declaration": true,
     "removeComments": true,
@@ -12,7 +13,7 @@
     "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
-    "strictNullChecks": false,
+    "strictNullChecks": true, // !!! Why set this to false?
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
